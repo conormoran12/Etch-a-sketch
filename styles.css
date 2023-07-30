@@ -1,0 +1,56 @@
+body {
+    background-color: #121212;
+}
+
+.title {
+    text-align: center;
+    font-size: 7.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin: 0;
+    margin-top: 2.5%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    height: 500px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+
+}
+
+.flex-item {
+    flex: 1 1 6.25%;
+}
+
+.selected {
+    background-color: #181716;
+}
+
+.slide-container {
+    display: flex;
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translate(450%, 800%);
+    align-items: center;
+    justify-content: center;
+}
+
+.range-text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    justify-content: center;
+}
