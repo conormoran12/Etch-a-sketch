@@ -95,34 +95,34 @@ button {
 }
 
 #myRange {
-    -webkit-appearance: none;  /* Override default CSS styles */
+    -webkit-appearance: none;
     appearance: none;
-    width: 200px; /* Full-width */
+    width: 200px;
     margin-bottom: 12.5px;
-    height: 12.5px; /* Specified height */
-    background: #EA638C; /* Grey background */
-    outline: none; /* Remove outline */
+    height: 12.5px;
+    background: #EA638C;
+    outline: none;
     border: #FFD9DA solid 2.5px;
     border-radius: 20px;
-    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    -webkit-transition: .2s;
     transition: opacity .2s;
 }
 
-/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+
 #myRange::-webkit-slider-thumb {
-    -webkit-appearance: none; /* Override default look */
+    -webkit-appearance: none;
     appearance: none;
-    width: 20px; /* Set a specific slider handle width */
-    height: 20px; /* Slider handle height */
+    width: 20px;
+    height: 20px;
     border-radius: 100px;
-    background: #FFD9DA; /* Green background */
-    cursor: pointer; /* Cursor on hover */
+    background: #FFD9DA;
+    cursor: pointer;
   }
   
 #myRange::-moz-range-thumb {
-    width: 25px; /* Set a specific slider handle width */
-    height: 25px; /* Slider handle height */
+    width: 25px;
+    height: 25px;
     border-radius: 100px;
-    background: #89023E; /* Green background */
-    cursor: pointer; /* Cursor on hover */
+    background: #89023E;
+    cursor: pointer;
   }
