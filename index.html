@@ -5,16 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="etch-a-sketch.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script defer src="etch-a-sketch.js"></script>
 </head>
 <body>
-    <h1 class="title">Etch-a-sketch</h1>
-    <div class="container" id="flex-container">
-        
+    
+    <div class="navigation-bar-container">
+        <div class="header">Etch-a-Sketch</div>
     </div>
-    <div class="slide-container">
-        <input type="range" min="1" max="64" class="slider" value="16" id="range_button"> 
-        <p class="range-text" id="range_text">16x16</p>
+    <div class="main-container">
+        <div class="sketch-container">
+            <div class="mode-container">
+                <div class="mode-header">Modes</div>
+                <div class="slider-container">
+                    <input type="range" min="1" max="64" value="16" class="slider" id="myRange">
+                    <div class="value-shower">16x16</div>
+                </div>
+                <div class="sub-mode-container">
+                    <div class="mode-button" id="mode_button"><button>Normal Mode</button></div>
+                    <div class="mode-button" id="mode_button"><button>Rainbow Mode</button></div>
+                    <div class="mode-button" id="mode_button"><button>Lighten Mode</button></div>
+                    <div class="mode-button" id="mode_button"><button>Eraser Mode</button></div>
+                </div>
+            </div>
+            <div class="sketch-pad" id="sketch_pad"></div>
+        </div>
     </div>
 </body>
 </html>
