@@ -67,7 +67,6 @@ buttons.forEach((element) => {
     }
     element.addEventListener("mouseup", (event) => {
         for (let i = 0; i < buttons.length; i++) {
-            console.log("hello")
             buttons[i].style.backgroundColor = "#89023E"
             buttons[i].style.color = "#FFD9DA"
         }
